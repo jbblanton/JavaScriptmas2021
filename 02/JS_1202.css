@@ -1,0 +1,91 @@
+:root {
+    --wine-red: #c7375f;
+    --bright-red: #d42d2f;
+    --dark-green: #344d2f;
+    --light-green: #77a047;
+    --gold: #daae4b;
+    --snow: #f0f4f7;
+    --dark-blue: #3a56a0;
+    --light-blue: #9ab8c2;
+    --cream: #f2ebdb;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: var(--snow);
+    height: 100vh;
+}
+
+.container {
+    background-color: var(--dark-green);
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 3em;
+    min-width: 350px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+        rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+p {
+    font-size: 45px;
+}
+
+.radio-container {
+    width: 200px;
+    font-size: 22px;
+    padding-bottom: 2%;
+}
+
+.christmas {
+    font-family: "Mountains of Christmas", cursive;
+    color: var(--dark-green);
+    background-color: var(--wine-red);
+}
+
+.christmas .container {
+    background: var(--snow);
+}
+
+.snow {
+    font-family: "Lobster Two", cursive;
+    color: var(--snow);
+    background-color: var(--snow);
+}
+
+.snow .container {
+    color: #f0f4f7;
+    background-color: var(--dark-green);
+    width: fit-content;
+}
+
+.hanukkah {
+    font-family: "Comforter", cursive;
+    color: var(--cream);
+    background-color: var(--light-blue);
+}
+
+.hanukkah .container {
+    background-color: var(--dark-blue);
+}
+
+.nye {
+    font-family: "Josefin Sans", cursive;
+    background-color: var(--gold);
+    color: var(--gold);
+}
+
+.nye .container {
+    background-color: black;
+}
