@@ -9,7 +9,8 @@ Day 3 - https://02ncc.csb.app/ \
 Day 4 -
 Day 5 -
 Day 6 - https://1jbht.csb.app/ \
-Day 7 -
+Day 7 - (Requires a music file) \
+Day 8 - (Requires a music file)
 
 ---
 
@@ -22,3 +23,4 @@ Christmas Tree - &#127876 🎄
 Santa face - &#127877 🎅
 Firework - &#127878 🎆
 Menorah - &#128337 🕎
+Bell - &#128276 🔔

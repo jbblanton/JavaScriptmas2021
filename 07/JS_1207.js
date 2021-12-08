@@ -23,7 +23,6 @@ const bell = document.getElementById("bell");
 function playMusic() {
   bells.play();
   bell.className = "jingle-bell";
-  console.log(bell.className);
 }
 
 function pauseMusic() {
