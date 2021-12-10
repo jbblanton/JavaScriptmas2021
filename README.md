@@ -10,7 +10,9 @@ Day 4 -
 Day 5 -
 Day 6 - https://1jbht.csb.app/ \
 Day 7 - (Requires a music file) \
-Day 8 - (Requires a music file)
+Day 8 - (Requires a music file) \
+Day 9 - https://x21zv.csb.app/ \
+Day 10 - https://1j6yh.csb.app/ \
 
 ---
 

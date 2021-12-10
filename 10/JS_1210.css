@@ -1,0 +1,93 @@
+:root {
+    --wine-red: #c7375f;
+    --bright-red: #d42d2f;
+    --dark-green: #344d2f;
+    --light-green: #77a047;
+    --gold: #fac57d;
+    --snow: #f0f4f7;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: var(--dark-green);
+    background-color: var(--snow);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    color: var(--snow);
+    padding: 1em 2em;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+        rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    width: 200px;
+}
+
+.not-yet {
+    background: var(--light-green);
+}
+
+.soon {
+    background: var(--dark-green);
+}
+
+.now {
+    background: var(--wine-red);
+    width: 200px;
+}
+
+meter {
+    height: 50px;
+    /* min-width: 200px; */
+    animation-name: fill;
+    animation-direction: normal;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fill {
+    0% {
+        left: 0;
+        width: 0%;
+    }
+    100% {
+        left: 0;
+        width: 100%;
+    }
+}
+
+.celebration {
+    animation: celebrate 1s infinite 1s;
+    animation-delay: 1s;
+    min-width: 200px;
+}
+
+@keyframes celebrate {
+    0% {
+        transform: rotateX(00deg);
+    }
+    100% {
+        transform: rotateX(180deg);
+    }
+}
+
+body.celebrate {
+    background-color: var(--gold);
+}
+
+p {
+    font-size: 3em;
+}
