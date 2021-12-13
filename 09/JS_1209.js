@@ -1,3 +1,5 @@
+// ** 24 days of JavaScriptmas from Scrimba **
+
 // Task:
 // Write a function to add decorations (e.g. ☃️, 🎄, etc) next to the house when the switch is toggled.const house = document.getElementById("house")
 
