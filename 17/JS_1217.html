@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body>
+    <h1>🎅 Naughty List, Nice List 🎁</h1>
+    <div class="container">
+      <div>
+        <h2>Nice List</h2>
+        <ul class="list nice-list" id="nice-list"></ul>
+      </div>
+      <div>
+        <h2>Naughty List</h2>
+        <ul class="list naughty-list" id="naughty-list"></ul>
+      </div>
+    </div>
+    <button id="btn" type="button">Sort</button>
+    <div>
+      <form id="add-child" class="add-form">
+        <label for="child">Add someone to the list:</label>
+        <input type="text" name="child" id="child" />
+        <select id="goodness-selector">
+          <option value="nice">Nice</option>
+          <option value="naughty">Naughty</option>
+        </select>
+        <button id="add" type="submit">Add</button>
+      </form>
+    </div>
+    <script src="./src/index.js"></script>
+  </body>
+</html>
