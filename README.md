@@ -20,6 +20,9 @@ Day 14 - https://b4gxj.csb.app/ \
 Day 15 - https://sheiw.csb.app/ \
 Day 16 - https://lf739.csb.app/ \
 Day 17 - https://qm12r.csb.app/ \
+Day 18 - https://87iqv.csb.app/ \
+Day 19 - https://6eigq.csb.app/ \
+Day 20 - https://m7o0q.csb.app/ \
 
 ---
 
