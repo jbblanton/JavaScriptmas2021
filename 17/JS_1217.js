@@ -1,3 +1,8 @@
+// ** 24 days of JavaScriptmas from Scrimba **
+
+// Task:
+// - Write the JavaScript to sort the people in sorteesArr into the naughty and nice lists, according to whether they have been good or not. Then display the names in the relevant place in the DOM.
+
 const niceList = document.getElementById("nice-list");
 const naughtyList = document.getElementById("naughty-list");
 const btn = document.getElementById("btn");
@@ -21,9 +26,6 @@ const sorteesArr = [
     hasBeenGood: true,
   },
 ];
-
-// Task:
-// - Write the JavaScript to sort the people in sorteesArr into the naughty and nice lists, according to whether they have been good or not. Then display the names in the relevant place in the DOM.
 
 function sortList() {
   for (let child of sorteesArr) {
