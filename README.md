@@ -25,6 +25,8 @@ Day 19 - https://6eigq.csb.app/ \
 Day 20 - https://m7o0q.csb.app/ \
 Day 21 - https://hz0yf.csb.app/ \
 Day 22 - https://3eq68.csb.app/ \
+Day 23 - https://dhpfv.csb.app/ \
+Day 24 - https://dqyb2.csb.app/ \
 
 ---
 
@@ -38,3 +40,4 @@ Santa face - &#127877 🎅
 Firework - &#127878 🎆
 Menorah - &#128337 🕎
 Bell - &#128276 🔔
+Candle - &#128367 🕯
